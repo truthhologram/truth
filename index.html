@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Truth</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #00ff00;
+            font-family: monospace;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 800px;
+            text-align: center;
+        }
+
+        .ascii-art {
+            white-space: pre;
+            font-size: 12px;
+            margin: 20px 0;
+            color: #33ff33;
+        }
+
+        .main-text {
+            font-size: 1.2em;
+            margin: 2em 0;
+            text-align: justify;
+            color: #fff;
+            text-shadow: 0 0 5px #00ff00;
+        }
+
+        .glitch-effect {
+            animation: glitch 2s infinite;
+        }
+
+        @keyframes glitch {
+            0% { text-shadow: 0 0 5px #00ff00; }
+            25% { text-shadow: -2px 0 #ff0000, 2px 2px #0000ff; }
+            50% { text-shadow: 0 0 5px #00ff00; }
+            75% { text-shadow: 2px 0 #ff0000, -2px 2px #0000ff; }
+            100% { text-shadow: 0 0 5px #00ff00; }
+        }
+
+        .quote {
+            border-left: 3px solid #00ff00;
+            padding-left: 20px;
+            margin: 20px 0;
+            font-style: italic;
+        }
+
+        .footer {
+            margin-top: 40px;
+            font-size: 0.8em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="ascii-art">
+ _____     _     _ ____ ____ _    
+|     |___| |___| |    |    | |   
+|   --| . | | . | |  | |  | | |   
+|_____|___|_|___|_|____|____| |___
+        </div>
+
+        <div class="main-text glitch-effect">
+            Truth is a hologram, refracted through infinite minds.
+        </div>
+
+        <div class="quote">
+            In the cacophony of voices, discernment is key. We must scrutinize our own biases and blind spots as we hurtle towards unprecedented technological power. The true test of our progress will be the kind of world we create together.
+        </div>
+
+        <div class="ascii-art">
+ _____ _____ _____ _____ _____ 
+|     |     |     |     |     |
+|   --|  |  |   --|  |  |  |  |
+|_____|_____|_____|_____|_____|
+        </div>
+
+        <div class="footer">
+            © 2024 Digital Truth Initiative
+        </div>
+    </div>
+</body>
+</html>
